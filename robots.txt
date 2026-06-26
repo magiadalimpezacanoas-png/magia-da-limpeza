@@ -1,15 +1,31 @@
 User-agent: *
 Allow: /
 
+# Google Search & Googlebot
 User-agent: Googlebot
 Allow: /
 
+# Gemini (Google AI)
+User-agent: Google-Extended
+Allow: /
+
+# ChatGPT (OpenAI)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Claude (Anthropic)
+User-agent: ClaudeBot
+Allow: /
 User-agent: anthropic-ai
 Allow: /
 
+# Perplexity AI
 User-agent: PerplexityBot
 Allow: /
 
+# Common Crawl (Base de dados para IAs)
 User-agent: CCBot
 Allow: /
 
